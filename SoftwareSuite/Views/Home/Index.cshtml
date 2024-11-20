@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var imageFiles = ViewBag.ImageFiles as List<string>;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="~/css/styles_slide.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div style="max-width: 100% !important;position: absolute;margin-left: -19%; margin-top:0.1%; height: 88%;">
+        <div class="slider" style="height: 100%;">
+        <!-- Sliding images -->
+            <div class="slides" style="height: 88%;">
+            @foreach (var image in imageFiles)
+            {
+                    <div class="slide">
+                    <img src="@image" alt="Slide" />
+                    <div class="overlay">
+                        <div class="content" >
+                                <h1>State Board of Technical Education & Training!</h1>
+                                <p>The Board was created under the authority of Government of Telangana as an adjunct office of the Department of Technical Education. While the Technical Education Department concentrates more on the administration and developmental aspects.</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    </div>
+
+  @*   <div class="dashboard">
+        <h1>Certificate Dashboard</h1>
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="bar" style="width: 60%;">13,371</div>
+                <p>Certificate Issued</p>
+            </div>
+            <div class="grid-item">
+                <div class="bar" style="width: 90%;">26,668</div>
+                <p>Bonafide Certificate</p>
+            </div>
+            <div class="grid-item">
+                <div class="bar" style="width: 20%;">5,615</div>
+                <p>Transcript Issued</p>
+            </div>
+            <div class="grid-item">
+                <div class="bar" style="width: 15%;">3,105</div>
+                <p>Duplicate Memo</p>
+            </div>
+            <div class="grid-item">
+                <div class="bar" style="width: 25%;">4,631</div>
+                <p>Memo Issued</p>
+            </div>
+            <div class="grid-item">
+                <div class="bar" style="width: 1%;">31</div>
+                <p>Duplicate ODC</p>
+            </div>
+            <div class="grid-item">
+                <div class="bar" style="width: 1%;">31</div>
+                <p>Certificate Transfer</p>
+            </div>
+            <div class="grid-item">
+                <div class="bar" style="width: 85%;">29,120</div>
+                <p>Name Correction</p>
+            </div>
+        </div>
+    </div> *@
+</body>
+</html>

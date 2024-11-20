@@ -1,0 +1,280 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container to center the header content */
+.header {
+    background-color: #f8f8f8; /* Light background for professionalism */
+    padding: 20px 0; /* Spacing around the content */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Column styles */
+.col-md-3, .col-sm-3 {
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Logo Section */
+.logo img {
+    max-width: 80%; /* Ensures the logo scales well */
+    margin: 0 auto;
+}
+
+.logo-c img {
+    border-radius: 50%; /* Circular images for profile pictures */
+    max-width: 70%; /* Adjust size to fit */
+    object-fit: cover; /* Ensures image is properly cropped to a circle */
+}
+
+/* Text below profile images */
+label {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Title styles for the Chairman and Secretary */
+.logo-c label {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
+/* Controls Section (optional for font resizing, but hidden in your markup now) */
+.controllSize {
+    display: none; /* Hide until required */
+}
+
+/* Additional margin and padding */
+.com-md-3 {
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 992px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-md-3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Adjust the margin for logos and labels */
+    .logo img, .logo-c img {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    label {
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+.dashboard {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+    .grid-item:hover {
+        transform: translateY(-5px);
+        background-color: #e0e0e0;
+    }
+
+    .grid-item p {
+        font-size: 16px;
+        font-weight: 600;
+        color: #34495e;
+        margin-top: 10px;
+    }
+
+/* Bar Style */
+.bar {
+    height: 30px;
+    background-color: #3498db;
+    color: white;
+    text-align: right;
+    line-height: 30px;
+    border-radius: 5px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+    .bar::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: inherit;
+        border-radius: inherit;
+    }
+
+
+
+
+
+
+
+/*Footer */
+
+/* Gradient Custom Styles */
+.gradient-custom {
+    color: white;
+}
+
+/* Footer Styles */
+.footer {
+    padding: 60px 0; /* Increased padding to increase height */
+    font-size: 14px;
+    min-height: 10%; /* Ensure a minimum height for the footer */
+}
+
+    .footer h5 {
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .footer p {
+        color: #ccc;
+        line-height: 1.6;
+    }
+
+    .footer a {
+        color: #f1f1f1;
+        text-decoration: none;
+    }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+/* Container for the Footer */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Row Styles */
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.col-md-6 {
+    width: 48%;
+}
+
+/* Footer Info */
+.footer-info {
+    margin-top: 20px;
+}
+
+    .footer-info p {
+        margin: 5px 0;
+    }
+
+#site-views {
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-md-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,11 @@
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteDAL\bin\Debug\net8.0\SoftwareSuiteDAL.deps.json
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteDAL\bin\Debug\net8.0\SoftwareSuiteDAL.dll
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteDAL\bin\Debug\net8.0\SoftwareSuiteDAL.pdb
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteDAL\obj\Debug\net8.0\SoftwareSuiteDAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteDAL\obj\Debug\net8.0\SoftwareSuiteDAL.AssemblyInfoInputs.cache
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteDAL\obj\Debug\net8.0\SoftwareSuiteDAL.AssemblyInfo.cs
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteDAL\obj\Debug\net8.0\SoftwareSuiteDAL.csproj.CoreCompileInputs.cache
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteDAL\obj\Debug\net8.0\SoftwareSuiteDAL.dll
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteDAL\obj\Debug\net8.0\refint\SoftwareSuiteDAL.dll
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteDAL\obj\Debug\net8.0\SoftwareSuiteDAL.pdb
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteDAL\obj\Debug\net8.0\ref\SoftwareSuiteDAL.dll

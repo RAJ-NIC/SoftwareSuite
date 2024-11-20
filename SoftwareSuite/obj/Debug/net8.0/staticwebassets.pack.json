@@ -1,0 +1,309 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SoftwareSuite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SoftwareSuite.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\Images\\Secretary.jpg",
+      "PackagePath": "staticwebassets\\Images\\Secretary.jpg"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\Images\\Slides\\C24 meeting.jpg.png",
+      "PackagePath": "staticwebassets\\Images\\Slides\\C24 meeting.jpg.png"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\Images\\Slides\\Chairamn1-Posting-2023-12-20.jpg.png",
+      "PackagePath": "staticwebassets\\Images\\Slides\\Chairamn1-Posting-2023-12-20.jpg.png"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\Images\\Slides\\Welcoming CTE.jpeg.png",
+      "PackagePath": "staticwebassets\\Images\\Slides\\Welcoming CTE.jpeg.png"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\Images\\Slides\\cte-meeting-sbtet 2024-01-05 .jpg.png",
+      "PackagePath": "staticwebassets\\Images\\Slides\\cte-meeting-sbtet 2024-01-05 .jpg.png"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\Images\\Slides\\cte-visit-2024-01-05 .jpg.png",
+      "PackagePath": "staticwebassets\\Images\\Slides\\cte-visit-2024-01-05 .jpg.png"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\Images\\Slides\\upload.jpg.png",
+      "PackagePath": "staticwebassets\\Images\\Slides\\upload.jpg.png"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\Images\\comissioner_2024.jpg",
+      "PackagePath": "staticwebassets\\Images\\comissioner_2024.jpg"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\Images\\sb-1.png",
+      "PackagePath": "staticwebassets\\Images\\sb-1.png"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\css\\styles_slide.css",
+      "PackagePath": "staticwebassets\\css\\styles_slide.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\js\\slidejs.js",
+      "PackagePath": "staticwebassets\\js\\slidejs.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Dot_Net_Core\\SoftwareSuite\\SoftwareSuite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SoftwareSuite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SoftwareSuite.props",
+      "PackagePath": "build\\SoftwareSuite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SoftwareSuite.props",
+      "PackagePath": "buildMultiTargeting\\SoftwareSuite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SoftwareSuite.props",
+      "PackagePath": "buildTransitive\\SoftwareSuite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

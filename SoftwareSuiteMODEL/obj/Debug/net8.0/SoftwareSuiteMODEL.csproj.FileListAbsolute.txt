@@ -1,0 +1,11 @@
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteMODEL\bin\Debug\net8.0\SoftwareSuiteMODEL.deps.json
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteMODEL\bin\Debug\net8.0\SoftwareSuiteMODEL.dll
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteMODEL\bin\Debug\net8.0\SoftwareSuiteMODEL.pdb
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteMODEL\obj\Debug\net8.0\SoftwareSuiteMODEL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteMODEL\obj\Debug\net8.0\SoftwareSuiteMODEL.AssemblyInfoInputs.cache
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteMODEL\obj\Debug\net8.0\SoftwareSuiteMODEL.AssemblyInfo.cs
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteMODEL\obj\Debug\net8.0\SoftwareSuiteMODEL.csproj.CoreCompileInputs.cache
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteMODEL\obj\Debug\net8.0\SoftwareSuiteMODEL.dll
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteMODEL\obj\Debug\net8.0\refint\SoftwareSuiteMODEL.dll
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteMODEL\obj\Debug\net8.0\SoftwareSuiteMODEL.pdb
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteMODEL\obj\Debug\net8.0\ref\SoftwareSuiteMODEL.dll

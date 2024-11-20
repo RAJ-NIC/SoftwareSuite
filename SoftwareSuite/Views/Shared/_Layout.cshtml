@@ -1,0 +1,444 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SoftwareSuite</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SoftwareSuite.styles.css" asp-append-version="true" />
+    <style>
+        .gradient-custom {
+            background: #6a11cb;
+            background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+            background: linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+            height: 5% !important;
+        }
+
+        .gradient-custom1 {
+            background: #07294d;
+            height: 5% !important;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #f8f9fa;
+        }
+
+            .navbar-dark .navbar-nav .nav-link:hover {
+                color: #ff0; /* Change hover color if desired */
+            }
+
+        .nav-item:hover .dropdown-menu {
+            display: block;
+            opacity: 1;
+        }
+
+        .dropdown-menu {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark gradient-custom1">
+        <div class="row">
+            <div style="margin-top: -5% !important;">
+                <div class="header-opening-time text-lg-right text-center">
+                    <p style="color: white;margin-bottom: 1rem;margin-top: 20%;margin-left: 50%; width: 100%;">sbtet-helpdesk&#64;telangana.gov.in</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div style="margin-top: -5% !important;">
+                <div class="header-opening-time text-lg-right text-center">
+                    <p style="color: white;margin-bottom: 1rem;    margin-top: 35%;margin-left: 355%; width: 100%;">+91 8031404549</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div style="margin-top: -5% !important;">
+                <div class="header-opening-time text-lg-right text-center">
+                    <p style="color: white;margin-bottom: 1rem;margin-top: 18%;margin-left: 400%;width: 100%;">All Working days: 10:30AM To 05:00PM</p>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    @*  <div class="header">
+    <div class="container">
+
+    <div class="col-md-12">
+    <div class="com-md-3 col-sm-3">
+    <div class="logo">
+    <a href="#" ng-click="OpenModule('index')" ui-sref="index">
+    <img src="~/images/sb-1.png" style="width: 100%;margin-left: -62%;margin-top: 3%;" />
+    </a>
+    </div>
+    </div>
+    <div class="com-md-3 col-sm-3">
+    <div class="logo-c">
+    <a href="#" ui-sref="about-sbtet">
+    <img src="~/images/comissioner_2024.jpg" style="width: 35%;margin-left: 75%;border-radius: 97%;margin-top: -33%;" />
+    </a>
+    </div>
+    <div>
+    <label style="text-align: center;margin-left: 41%;width: 100%;">Smt. A. Sridevasena, IAS </br> CHAIRMAN</label>
+    </div>
+    </div>
+    <div class="com-md-3 col-sm-3">
+    <div class="logo-c">
+    <a href="#" ui-sref="about-sbtet">
+    <img src="~/images/secretary.jpg" style="width: 35%;margin-left: 164%;border-radius: 97%;margin-top: -76%;" />
+    </a>
+    </div>
+    <div style="margin-top:-14%">
+    <label style="text-align: center;margin-left: 133%;width: 100%;margin-top: -7%;">Er A Pullaiah</br> SECRETARY</label>
+    </div>
+    </div>
+    <div class="com-md-3 col-sm-3">
+    <div class="controllSize">
+
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+    </div> *@
+    <div class="header">
+        <div class="container">
+            <!-- Chairman Section -->
+            <div class="col-md-3 col-sm-3">
+                <div class="logo">
+                    <a href="#" ng-click="OpenModule('index')" ui-sref="index">
+                        <img src="~/images/sb-1.png" alt="Logo" style="max-width: 100% !important; margin: 0 auto !important;" />
+                    </a>
+                </div>
+            </div>
+
+            <!-- Chairman Image and Name -->
+            <div class="col-md-3 col-sm-3">
+                <div class="logo-c" style="border-radius: 53%  !important;max-width: 30% !important; object-fit: cover;">
+                    <a href="#" ui-sref="about-sbtet">
+                        <img src="~/images/comissioner_2024.jpg" alt="Chairman" />
+                    </a>
+                </div>
+                <label style="font-family: 'Arial', sans-serif;font-size: 11px;font-weight: bold; color: #333;text-align: center;margin-top: 4%!important;margin-left: -10% !important;">Smt. A. Sridevasena, IAS <br>CHAIRMAN</label>
+            </div>
+
+            <!-- Secretary Image and Name -->
+            <div class="col-md-3 col-sm-3">
+                <div class="logo-c" style="border-radius: 53% !important;max-width: 30% !important; object-fit: cover;">
+                    <a href="#" ui-sref="about-sbtet">
+                        <img src="~/images/secretary.jpg" alt="Secretary" />
+                    </a>
+                </div>
+                <label style="font-family: 'Arial', sans-serif;font-size: 11px;font-weight: bold; color: #333;text-align: center;margin-top: 4%!important;margin-left: -10%!important;">Er A Pullaiah <br>SECRETARY</label>
+            </div>
+
+            <!-- Font Size Controls (Optional) -->
+            <div class="col-md-3 col-sm-3">
+                <div class="controllSize">
+                    <!-- Font Size Controls can be enabled if needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary gradient-custom1">
+            <div class="container-fluid">
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Student Services
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                @* <li><a class="dropdown-item" href="#">Overview</a></li> *@
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;" href="#">Diploma</a></li>
+                                <li ng-click="OpenModule('index.ViewSyllabus')"><a class="dropdown-item" id="index.ViewSyllabus" ui-sref="index.ViewSyllabus">View Syllabus</a></li>
+                                <li ng-click="OpenModule('index.StudentAttendance')"><a class="dropdown-item" id="index.StudentAttendance" ui-sref="index.StudentAttendance">View Attendance</a></li>
+                                <li ng-click="OpenModule('index.StudentFeedback')"><a class="dropdown-item" id="index.StudentFeedback" ui-sref="index.StudentFeedback">Submit Feedback</a></li>
+                                <li ng-click="OpenModule('index.Timetable')"><a class="dropdown-item" id="index.Timetable" ui-sref="index.Timetable">Time Table</a></li>
+                                <li ng-click="OpenModule('index.DiplomaFeePayment')"><a class="dropdown-item" id="index.DiplomaFeePayment" ui-sref="index.DiplomaFeePayment">Exam Fee Payment</a></li>
+                                <li ng-click="OpenModule('index.MercyFee')"><a class="dropdown-item" id="index.MercyFee" ui-sref="index.MercyFee">Special Mercy Exam Fee Payment</a></li>
+                                <li ng-click="OpenModule('index.DiplomaHallticket')"><a class="dropdown-item" id="index.DiplomaHallticket" ui-sref="index.DiplomaHallticket">Hall Ticket download & Condonation Fee</a></li>
+                                <li ng-click="OpenModule('index.DiplomaStudentResult')"><a class="dropdown-item" id="index.DiplomaStudentResult" ui-sref="index.DiplomaStudentResult">Results</a></li>
+                                <li ng-click="OpenModule('index.StudentConsolidatedResult')"><a class="dropdown-item" id="index.StudentConsolidated" ui-sref="index.StudentConsolidatedResult">Consolidated Result</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://osdes.sbtet.telangana.gov.in/pcrv/">Photo Copy & Revaluation</a></li>
+                                <li ng-click="OpenModule('index.StudentRequestForm',2)"><a class="dropdown-item" id="index.StudentRequestForm" ui-sref="index.StudentRequestForm">Interim Certificate</a></li>
+                                <li ng-click="OpenModule('index.StudentRequestForm',6)"><a class="dropdown-item" id="index.StudentRequestForm" ui-sref="index.StudentRequestForm">Transfer Certificate(TC)</a></li>
+                                <li ng-click="OpenModule('index.StudentRequestForm',1)"><a class="dropdown-item" id="index.StudentRequestForm" ui-sref="index.StudentRequestForm">Migration Certificate</a></li>
+                                <li ng-click="OpenModule('index.StudentRequestForm',4)"><a class="dropdown-item" id="index.StudentRequestForm" ui-sref="index.StudentRequestForm">Duplicate Marks Memo</a></li>
+                                <li ng-click="OpenModule('index.StudentRequestForm',5)"><a class="dropdown-item" id="index.StudentRequestForm" ui-sref="index.StudentRequestForm">Duplicate ODC</a></li>
+                                <li ng-click="OpenModule('index.StudentRequestForm',7)"><a class="dropdown-item" id="index.StudentRequestForm" ui-sref="index.StudentRequestForm">Name correction</a></li>
+                                <li ng-click="OpenModule('index.StudentRequestForm',3)"><a class="dropdown-item" id="index.StudentRequestForm" ui-sref="index.StudentRequestForm">Transcripts</a></li>
+                                <li ng-click="OpenModule('index.StudentRequestForm',9)"><a class="dropdown-item" id="index.StudentRequestForm" ui-sref="index.StudentRequestForm">Study Certificate</a></li>
+                                <li ng-click="OpenModule('index.StudentRequestForm',10)"><a class="dropdown-item" id="index.StudentRequestForm" ui-sref="index.StudentRequestForm">Bonafide Certificate</a></li>
+                                <li ng-click="OpenModule('index.TwoYearsCertificateRequest')"><a class="dropdown-item" id="index.TwoYearsCertificateRequest" ui-sref="index.TwoYearsCertificateRequest">Two Years Engineering Certificate</a></li>
+                                <li ng-click="OpenModule('index.StudentOnlineRequest')"><a class="dropdown-item" id="index.StudentOnlineRequest" ui-sref="index.StudentOnlineRequest">3 Backlog Exception</a></li>
+                                <li ng-click="OpenModule('index.FeeReciept')"><a class="dropdown-item" id="index.FeeReciept" ui-sref="index.FeeReciept">Download Fee Reciept</a></li>
+                            </ul>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="margin-left: 210%;">
+                                <li><a ui-sref="index.TwshOnlineApplication" class="dropdown-item gradient-custom1" style="color:white;" href="#">TW & SH</a></li>
+                                <li ng-click="OpenModule('index.TwshOnlineApplication')"><a class="dropdown-item" id="index.TwshOnlineApplication" ui-sref="index.TwshOnlineApplication">Apply for CBT\ Offilne Exam</a></li>
+                                <li ng-click="OpenModule('index.TwshFeePayment')"><a class="dropdown-item" id="TwshFeePayment" ui-sref="index.TwshFeePayment">Fee Payment</a></li>
+                                <li ng-click="OpenModule('index.TwshViewApplication')"><a class="dropdown-item" id="index.TwshViewApplication" ui-sref="index.TwshViewApplication">Reschedule CBT Exam\ View Application</a></li>
+                                <li ng-click="OpenModule('index.TwshHallticket')"><a class="dropdown-item" id="index.TwshHallticket" ui-sref="index.TwshHallticket">Hallticket Download</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://sbtet.telangana.gov.in/TwshCbt">CBT Practice</a></li>
+                                <li><a class="dropdown-item" download href="/Cbt_Instructions/CBT INSTRUCTIONS TO THE  CANDIDATES WITH FORMATS  12-04-2022.pdf">CBT Instructions</a></li>
+                                <li ng-click="OpenModule('index.TypingAndShorthandResults')"><a class="dropdown-item" id="index.TypingAndShorthandResults" ui-sref="index.TypingAndShorthandResults">Results</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://osdes.sbtet.telangana.gov.in/pcrv">Photo Copy & Revaluation</a></li>
+                            </ul>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="margin-left: 421%;">
+                                <li><a target="_blank" class="dropdown-item gradient-custom1" style="color:white;">CCIC</a></li>
+
+                                <li ng-click="OpenModule('index.CcicResults')"><a class="dropdown-item" id="index.CcicResults" target="_blank" ui-sref="index.CcicResults">CCIC Results</a></li>
+                                <!--<li><a target="_blank" href="https://www.sbtet.telangana.gov.in/index.html#!/index/CcicResults">CCIC Results</a></li>-->
+                                <li><a target="_blank" class="dropdown-item" href="https://osdes.sbtet.telangana.gov.in/pcrv/">Photo Copy & Revaluation</a></li>
+
+                            </ul>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="margin-left: 565%;">
+                                <li><a target="_blank" class="dropdown-item gradient-custom1" style="color:white;">ISB Online Skilling Programmes</a></li>
+
+                                <li><a class="dropdown-item" target="_blank" href="https://skillshub.isb.edu/sbtet/">Student Enrolment</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTeamLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                College Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">Diploma</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://www.affln.sbtet.telangana.gov.in/affiliation/">Affiliation Login</a></li>
+                                <li class="menuBar" ng-click="OpenModule('index.WebsiteLogin')"><a class="dropdown-item" id="index.WebsiteLogin" ui-sref="index.WebsiteLogin">College Login</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://polycetts.nic.in/Default.aspx">Polycet Portal</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="http://qpgd.sbtet.telangana.gov.in">QPGD Portal</a></li>
+                            </ul>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink" style="margin-left:226%;">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">TW & SH</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://www.sbtet.telangana.gov.in/index.html#!/TwshHome">College/ Institute Login</a></li>
+                            </ul>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink" style="margin-left:104%;">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">CCIC</a></li>
+                                <li ng-click="OpenModule('CcicLogin')"><a class="dropdown-item" target="_blank" id="CcicLogin" ui-sref="CcicLogin">CCIC Exams Portal</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://www.affln.sbtet.telangana.gov.in/ccic/">CCIC Affiliation Portal</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTeamLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Others Services
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">Institutions</a></li>
+                                <li ng-click="OpenModule('index.GenuinenessCheckForm')"><a class="dropdown-item" id="index.GenuinenessCheckForm" ui-sref="index.GenuinenessCheckForm">Genuineness Check</a></li>
+                            </ul>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink" style="margin-left:121%;">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">Staff</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://osdes.sbtet.telangana.gov.in/">Digital Evaluation</a></li>
+                            </ul>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink" style="margin-left:230%;">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">Polycet</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://polycet.sbtet.telangana.gov.in/">Apply for Polycet</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTeamLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Affiliated Colleges
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">Diploma</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://www.affln.sbtet.telangana.gov.in/affiliation/affiliationCompletedCollegesBefore.htm">Affiliated Colleges</a></li>
+                            </ul>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink" style="margin-left:100%;">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">TW & SH</a></li>
+                                <li ng-click="OpenModule('index.AffiliatedTwshInstitutions')"><a class="dropdown-item" id="index.AffiliatedTwshInstitutions" ui-sref="index.AffiliatedTwshInstitutions">Typewriting & Shorthand Institutions</a></li>
+                                <!--<li><a class="dropdown-item" href="" ui-sref="TwshHome">Institutions</a></li>-->
+                            </ul>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink" style="margin-left:280%;">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">CCIC</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://www.affln.sbtet.telangana.gov.in/ccic/CourseSummary.htm">CCIC Portal</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://www.affln.sbtet.telangana.gov.in/ccic/affiliationCompletedCollegesBefore.htm">CCIC Affiliated Colleges</a></li>
+                                <!--<li><a class="dropdown-item" target="_blank" href="http://localhost:50421/index.html#!/CcicInstiTable">Affliated Institutions</a></li>-->
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTeamLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Courses
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">Diploma</a></li>
+                                <li><a class="dropdown-item" id="index.Courses1" ng-click="OpenCourse(1)">Diploma</a></li>
+                            </ul>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink" style="margin-left:101% !important;">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">TW & SH</a></li>
+                                <li><a class="dropdown-item" id="index.Courses2" ng-click="OpenTwshCourse(2)">Typewriting & Shorthand </a></li>
+                            </ul>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink" style="margin-left:400%;">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">CCIC</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://www.affln.sbtet.telangana.gov.in/ccic/CourseSummary.htm">CCIC</a></li>
+                                <!--<li><a class="dropdown-item" target="_blank" href="http://localhost:50421/index.html#!/CcicCoursesCards">CCIC Courses</a></li>-->
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTeamLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact-Us
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTeamLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                More
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">More</a></li>
+                                <li ng-click="OpenModule('index.Aboutsbtet')"><a class="dropdown-item" id="index.Aboutsbtet" href="#" ui-sref="index.Aboutsbtet"> About-Us</a></li>
+                                <li ng-click="OpenModule('index.PrivacyPolicy')"><a class="dropdown-item" id="index.PrivacyPolicy" href="#" ui-sref="index.PrivacyPolicy">Privacy Policy</a></li>
+                                <li ng-click="OpenModule('index.Disclaimer')"><a class="dropdown-item" id="index.Disclaimer" href="#" ui-sref="index.Disclaimer">Disclaimer</a></li>
+
+                                <li ng-click="OpenModule('index.Hierarchy')"><a class="dropdown-item" id="index.Hierarchy" href="#" ui-sref="index.Hierarchy">Hierarchy</a></li>
+                                <li ng-click="OpenModule('index.Notifications')"><a class="dropdown-item" id="index.Notifications" href="#" ui-sref="index.Notifications">Notifications</a></li>
+                            </ul>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink" style="margin-left:230%;">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">More</a></li>
+
+                                <li ng-click="OpenModule('index.Sitemap')"><a class="dropdown-item" id="index.Sitemap" href="#" ui-sref="index.Sitemap">Site Map</a></li>
+                                <li ng-click="OpenModule('index.Tenders')"><a class="dropdown-item" id="index.Tenders" href="#" ui-sref="index.Tenders">Tenders</a></li>
+                                <li ng-click="OpenModule('index.Downloads')"><a class="dropdown-item" id="index.Downloads" href="#" ui-sref="index.Downloads">Downloads</a></li>
+                                <li ng-click="OpenModule('index.Latestnews')"><a class="dropdown-item" id="index.Latestnews" href="#" ui-sref="index.Latestnews">Latest News</a></li>
+                            </ul>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeamLink" style="margin-left:461%;">
+                                <li><a class="dropdown-item gradient-custom1" style="color:white;">RTI</a></li>
+                                <li ng-click="OpenModule('index.Full-details-act')"><a class="dropdown-item" id="index.Full-details-act" href="#" ui-sref="index.Full-details-act">Full details of Right to Informatin Act</a></li>
+                                <li ng-click="OpenModule('index.About-right-info')"><a class="dropdown-item" id="index.About-right-info" href="#" ui-sref="index.About-right-info">About Right to Information</a></li>
+                                <li ng-click="OpenModule('index.Obligations')"><a class="dropdown-item" id="index.Obligations" href="#" ui-sref="index.Obligations">Obligations of Public Authority</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="/assets/files/PIO's,_APIOS_&_Appellate_authorities_of_SBTET.pdf">APIO/PIO/AA of SETET</a></li>
+                                <li ng-click="OpenModule('index.Request-info')"><a class="dropdown-item" id="index.Request-info" href="#" ui-sref="index.Request-info">How to Request For Information</a></li>
+                                <li ng-click="OpenModule('index.State-government')"><a class="dropdown-item" id="index.State-government" href="#" ui-sref="index.State-government">What is the role of central/State government</a></li>
+                                <!--<li ng-click="OpenModule('index.Faq')"><a class="dropdown-item" id="index.Faq" href="#" ui-sref="index.Faq">FAQ's</a></li>-->
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a ng-click="OpenModule('index.WebsiteLogin')" class="nav-link dropdown-toggle" href="#" id="navbarDropdownTeamLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Login
+                            </a>
+
+                            @* <a ng-click="OpenModule('index.WebsiteLogin')" class="MobileSidebar" id="LoginUrl" ui-sref="index.WebsiteLogin"><i class="fas fa-user"></i>Login</a> *@
+                        </li>
+
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+                <!-- Right elements -->
+                <div class="d-flex align-items-center">
+                    <!-- Icon -->
+                    <a class="text-reset me-3" href="#">
+                        <i class="fas fa-shopping-cart text-white"></i>
+                    </a>
+
+                    <!-- Notifications -->
+                    <div class="dropdown">
+                        <button class="btn btn-link text-white" type="button" id="navbarDropdownNotifications" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-bell"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownNotifications">
+                            <li><a class="dropdown-item" href="#">Some news</a></li>
+                            <li><a class="dropdown-item" href="#">Another news</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Right elements -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+
+        <!-- Navbar -->
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <div style="height:30%;"> </div>
+   
+
+
+
+
+
+
+    <footer class="border-top footer gradient-custom1 text-white" style="white-space:normal;">
+        <div class="container">
+            <div class="row row-30">
+                <!-- Address Section -->
+                <div class="col-md-6" style="width: 48%; margin-left: -50%; margin-top: 0%;">
+                    <h5>Address:</h5>
+                    <p>Sankethika Vidhya Bhavan, Masab Tank, Hyderabad – 500 028, India.</p>
+                </div>
+                <!-- Contact Section -->
+                <div class="col-md-6" style="margin-left: 30%; margin-top: 0%; position: absolute;">
+                    <h5 style="width: 48%; ">Contact Us</h5>
+                    <p style="width: 48%; ">Email: <a href="">sbtet-helpdesk@telangana.gov.in</a></p>
+                    <p style="width: 48%; ">Phone: <a href="tel:+918031404549">+918031404549</a></p>
+                </div>
+            </div>
+            <!-- Footer Info Section -->
+            <div class="row no-gutters">
+                <div class="col" >
+                    <div class="footer-info text-center">
+                        <p style="margin-left: -74%;margin-top: 4%;position: absolute;">
+                            © 2020 This is the official website of State Board of Technical Education & Training, Telangana. All rights reserved.</p>
+                        <p style="margin-left: 5%;margin-top: 5%;position: absolute;">Total Site Views: <span id="site-views">0</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

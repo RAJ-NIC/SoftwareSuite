@@ -1,0 +1,11 @@
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteBLL\bin\Debug\net8.0\SoftwareSuiteBLL.deps.json
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteBLL\bin\Debug\net8.0\SoftwareSuiteBLL.dll
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteBLL\bin\Debug\net8.0\SoftwareSuiteBLL.pdb
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteBLL\obj\Debug\net8.0\SoftwareSuiteBLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteBLL\obj\Debug\net8.0\SoftwareSuiteBLL.AssemblyInfoInputs.cache
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteBLL\obj\Debug\net8.0\SoftwareSuiteBLL.AssemblyInfo.cs
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteBLL\obj\Debug\net8.0\SoftwareSuiteBLL.csproj.CoreCompileInputs.cache
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteBLL\obj\Debug\net8.0\SoftwareSuiteBLL.dll
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteBLL\obj\Debug\net8.0\refint\SoftwareSuiteBLL.dll
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteBLL\obj\Debug\net8.0\SoftwareSuiteBLL.pdb
+D:\Dot_Net_Core\SoftwareSuite\SoftwareSuiteBLL\obj\Debug\net8.0\ref\SoftwareSuiteBLL.dll

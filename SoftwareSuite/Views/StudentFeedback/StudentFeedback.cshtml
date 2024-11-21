@@ -1,0 +1,90 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Feedback Form</title>
+    <link href="~/css/feedback.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script> 
+</head>
+<body ng-app="feedbackApp" ng-controller="FeedbackController">
+
+    <h3><b>STUDENT FEEDBACK FORM</b></h3>
+
+    <div class="container" ng-hide="hideinput">
+        <div class="col-md-12">
+            <div class="row base-row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label>Feedback:</label>
+                        <select class="form-control" name="Feedback" required ng-model="Feedbacktype" ng-change="ChangeFType(Feedbacktype)">
+                            <option value="" selected>Select feedback</option>
+                            <option ng-repeat="Feedback in AvailableFeedbacks" ng-show="Feedback.IsActive==1" value="{{Feedback}}">
+                                {{Feedback.FeedbackName}}
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label>PIN</label>
+                        <input type="text" class="form-control" ng-model="userPin" required />
+                    </div>
+                </div>
+                <div class="col-md-3" ng-show="!otpsent">
+                    <button class="btn btn-default" style="margin-top:21px;" ng-disabled="disable" ng-click="generateOtp()">
+                        <span ng-show="!load">Send OTP</span>
+                        <span ng-show="load" title="loading">
+                            <div class="loader"></div>
+                        </span>
+                    </button>
+                </div>
+                <div class="col-md-3" ng-show="otpsent">
+                    <div class="form-group">
+                        <label>Enter OTP</label>
+                        <input type="text" class="form-control" ng-model="userOtp" style="text-transform:uppercase" required />
+                    </div>
+                </div>
+                <div class="col-md-3" ng-show="otpsent">
+                    <button class="btn btn-success" style="margin-top:21px;" id="submit1" ng-click="getDetails()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var app = angular.module("feedbackApp", []);
+        app.controller("FeedbackController", function($scope) {
+            $scope.hideinput = false;
+            $scope.otpsent = false;
+            $scope.disable = false;
+            $scope.load = false;
+            $scope.AvailableFeedbacks = [
+                { FeedbackName: "Course Feedback", IsActive: 1 },
+                { FeedbackName: "Instructor Feedback", IsActive: 1 }
+                // Add more feedbacks as needed
+            ];
+
+            $scope.generateOtp = function() {
+                // OTP generation logic goes here
+                $scope.otpsent = true;
+                $scope.load = false;
+            };
+
+            $scope.getDetails = function() {
+                // Logic to submit feedback details
+            };
+
+            $scope.ChangeFType = function(feedbackType) {
+                // Logic for feedback change, if required
+            };
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|d:\\dot_net_core\\git_softwaresuite\\softwaresuite\\softwaresuite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|solutionrelative:softwaresuite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|d:\\dot_net_core\\git_softwaresuite\\softwaresuite\\softwaresuite\\wwwroot\\css\\styles_slide.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|solutionrelative:softwaresuite\\wwwroot\\css\\styles_slide.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|d:\\dot_net_core\\git_softwaresuite\\softwaresuite\\softwaresuite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|solutionrelative:softwaresuite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|d:\\dot_net_core\\git_softwaresuite\\softwaresuite\\softwaresuite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|solutionrelative:softwaresuite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|d:\\dot_net_core\\git_softwaresuite\\softwaresuite\\softwaresuite\\views\\studentfeedback\\studentfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|solutionrelative:softwaresuite\\views\\studentfeedback\\studentfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|d:\\dot_net_core\\git_softwaresuite\\softwaresuite\\softwaresuite\\wwwroot\\css\\feedback.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|solutionrelative:softwaresuite\\wwwroot\\css\\feedback.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|d:\\dot_net_core\\git_softwaresuite\\softwaresuite\\softwaresuite\\controllers\\studentfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092E2AB6-8705-43CA-B48F-2F95597A6A68}|SoftwareSuite\\SoftwareSuite.csproj|solutionrelative:softwaresuite\\controllers\\studentfeedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SoftwareSuite\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SoftwareSuite\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T07:13:57.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "styles_slide.css",
+              "DocumentMoniker": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\wwwroot\\css\\styles_slide.css",
+              "RelativeDocumentMoniker": "SoftwareSuite\\wwwroot\\css\\styles_slide.css",
+              "ToolTip": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\wwwroot\\css\\styles_slide.css",
+              "RelativeToolTip": "SoftwareSuite\\wwwroot\\css\\styles_slide.css",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-21T05:58:41.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Feedback.css",
+              "DocumentMoniker": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\wwwroot\\css\\Feedback.css",
+              "RelativeDocumentMoniker": "SoftwareSuite\\wwwroot\\css\\Feedback.css",
+              "ToolTip": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\wwwroot\\css\\Feedback.css",
+              "RelativeToolTip": "SoftwareSuite\\wwwroot\\css\\Feedback.css",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-21T05:51:41.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentFeedback.cshtml",
+              "DocumentMoniker": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\Views\\StudentFeedback\\StudentFeedback.cshtml",
+              "RelativeDocumentMoniker": "SoftwareSuite\\Views\\StudentFeedback\\StudentFeedback.cshtml",
+              "ToolTip": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\Views\\StudentFeedback\\StudentFeedback.cshtml",
+              "RelativeToolTip": "SoftwareSuite\\Views\\StudentFeedback\\StudentFeedback.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T05:42:20.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentFeedbackController.cs",
+              "DocumentMoniker": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\Controllers\\StudentFeedbackController.cs",
+              "RelativeDocumentMoniker": "SoftwareSuite\\Controllers\\StudentFeedbackController.cs",
+              "ToolTip": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\Controllers\\StudentFeedbackController.cs",
+              "RelativeToolTip": "SoftwareSuite\\Controllers\\StudentFeedbackController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T05:37:36.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SoftwareSuite\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SoftwareSuite\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGgBAAAAAAAAAAAAAHQBAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T05:27:37.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SoftwareSuite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Dot_Net_Core\\Git_SoftwareSuite\\SoftwareSuite\\SoftwareSuite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SoftwareSuite\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T05:27:34.647Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

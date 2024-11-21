@@ -9,43 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SoftwareSuite
 build_property.RootNamespace = SoftwareSuite
-build_property.ProjectDir = D:\Dot_Net_Core\SoftwareSuite\SoftwareSuite\
+build_property.ProjectDir = D:\Dot_Net_Core\Git_SoftwareSuite\SoftwareSuite\SoftwareSuite\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Dot_Net_Core\SoftwareSuite\SoftwareSuite
+build_property.MSBuildProjectDirectory = D:\Dot_Net_Core\Git_SoftwareSuite\SoftwareSuite\SoftwareSuite
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Dot_Net_Core/SoftwareSuite/SoftwareSuite/Views/Home/Index.cshtml]
+[D:/Dot_Net_Core/Git_SoftwareSuite/SoftwareSuite/SoftwareSuite/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dot_Net_Core/SoftwareSuite/SoftwareSuite/Views/Home/Privacy.cshtml]
+[D:/Dot_Net_Core/Git_SoftwareSuite/SoftwareSuite/SoftwareSuite/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dot_Net_Core/SoftwareSuite/SoftwareSuite/Views/Shared/Error.cshtml]
+[D:/Dot_Net_Core/Git_SoftwareSuite/SoftwareSuite/SoftwareSuite/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dot_Net_Core/SoftwareSuite/SoftwareSuite/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Dot_Net_Core/Git_SoftwareSuite/SoftwareSuite/SoftwareSuite/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dot_Net_Core/SoftwareSuite/SoftwareSuite/Views/ViewSyllabus/Syllabus.cshtml]
+[D:/Dot_Net_Core/Git_SoftwareSuite/SoftwareSuite/SoftwareSuite/Views/StudentFeedback/StudentFeedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudEZlZWRiYWNrXFN0dWRlbnRGZWVkYmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dot_Net_Core/Git_SoftwareSuite/SoftwareSuite/SoftwareSuite/Views/ViewSyllabus/Syllabus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld1N5bGxhYnVzXFN5bGxhYnVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dot_Net_Core/SoftwareSuite/SoftwareSuite/Views/_ViewImports.cshtml]
+[D:/Dot_Net_Core/Git_SoftwareSuite/SoftwareSuite/SoftwareSuite/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dot_Net_Core/SoftwareSuite/SoftwareSuite/Views/_ViewStart.cshtml]
+[D:/Dot_Net_Core/Git_SoftwareSuite/SoftwareSuite/SoftwareSuite/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Dot_Net_Core/SoftwareSuite/SoftwareSuite/Views/Shared/_Layout.cshtml]
+[D:/Dot_Net_Core/Git_SoftwareSuite/SoftwareSuite/SoftwareSuite/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-457yk9l7hf

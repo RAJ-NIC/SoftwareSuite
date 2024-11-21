@@ -1,251 +1,105 @@
-﻿/* Basic reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body and HTML settings */
-html, body {
-    height: 100%;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    
-}
-
-/* The container that holds the entire content */
-.slider {
+﻿/* Full Width Slider */
+.slider-container {
     position: relative;
-    height: 100vh; /* Full height of the viewport */
     width: 100%;
+    height: 100vh; /* Full viewport height */
     overflow: hidden;
 }
 
-/* The container that holds the sliding images */
-.slides {
+.slider {
     display: flex;
-    width: 300%; /* For 3 images (adjust for more or less) */
+    width: 100%;
     height: 100%;
-    animation: slideImages 15s infinite ease-in-out;
-}
-
-/* Each individual slide (image + overlay) */
-.slide {
-    width: 33.33%; /* Assuming there are 3 images */
     position: relative;
 }
 
-    /* Make sure images cover the full screen */
+.slides {
+    display: flex;
+    width: 100%;
+    transition: transform 1s ease; /* Smooth transition */
+}
+
+.slide {
+    width: 100%; /* Each slide takes the full width */
+    height: 100%; /* Ensures images fill the height */
+    position: relative;
+    flex-shrink: 0;
+}
+
+    /* Ensure the images fill the slide area */
     .slide img {
         width: 100%;
-        height: 50%;
-        object-fit: cover; /* Ensure images cover the space */
+        height: 100%;
+        /*object-fit: cover;*/ /* Ensure images cover the slide area without distortion */
+        /* object-fit: scale-down;*/
+        background-size: cover;
+        background-position: center;
+       /* filter: blur(10px);*/
+        z-index: -1;
+        display: block;
     }
 
-/* Overlay for the text */
+/* Overlay text style */
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 50%;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content: center;
     align-items: center;
-    opacity: 0;
-    animation: fadeInOverlay 3s ease-out forwards;
+    justify-content: center;
 }
 
-/* Content inside the overlay */
 .content {
-    text-align: center;
     color: white;
-    opacity: 0;
-    animation: fadeInContent 3s ease-out forwards;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    width: 90%;
+    max-width: 600px;
 }
 
-/* Animation for the image sliding effect */
-@keyframes slideImages {
-    0% {
-        transform: translateX(0); /* First image visible */
-    }
-
-    33% {
-        transform: translateX(-33.33%); /* Second image visible */
-    }
-
-    66% {
-        transform: translateX(-66.66%); /* Third image visible */
-    }
-
-    100% {
-        transform: translateX(0); /* Loop back to first image */
-    }
+/* Slider Navigation Buttons */
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    z-index: 10;
 }
 
-/* Fade in effect for overlay */
-@keyframes fadeInOverlay {
-    0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 0.8;
-    }
-
-    100% {
-        opacity: 1;
-    }
+.prev-btn {
+    left: 10px;
 }
 
-/* Fade in effect for text content */
-@keyframes fadeInContent {
-    0% {
-        opacity: 0;
+.next-btn {
+    right: 10px;
+}
+
+/* Additional Responsive Breakpoints */
+@media (max-width: 768px) {
+    .slider-container {
+        height: 60vh; /* Adjust height for smaller screens */
     }
 
-    100% {
-        opacity: 1;
+    .content {
+        font-size: 18px;
     }
 }
 
-
-
-
-/*Modified */
-
-
-/*
-body {
-    font-family: 'Lato', sans-serif;
-}
-
-.carousel-fade .carousel-inner .item {
-    opacity: 0;
-    transition-property: opacity;
-}
-
-.carousel-fade .carousel-inner .active {
-    opacity: 1;
-}
-
-    .carousel-fade .carousel-inner .active.left,
-    .carousel-fade .carousel-inner .active.right {
-        left: 0;
-        opacity: 0;
-        z-index: 1;
+@media (max-width: 480px) {
+    .slider-container {
+        height: 50vh; /* Further adjust height for very small screens */
     }
 
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-    opacity: 1;
-}
-
-.carousel-fade .carousel-control {
-    z-index: 2;
-}
-
-@media all and (transform-3d), (-webkit-transform-3d) {
-    .carousel-fade .carousel-inner > .item.next,
-    .carousel-fade .carousel-inner > .item.active.right {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
+    .content {
+        font-size: 16px;
     }
-
-    .carousel-fade .carousel-inner > .item.prev,
-    .carousel-fade .carousel-inner > .item.active.left {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-
-        .carousel-fade .carousel-inner > .item.next.left,
-        .carousel-fade .carousel-inner > .item.prev.right,
-        .carousel-fade .carousel-inner > .item.active {
-            opacity: 1;
-            -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-        }
 }
-
-.carousel-caption {
-    text-shadow: 0 1px 4px rgba(0,0,0,.9);
-    font-size: 17px
-}
-
-    .carousel-caption h3 {
-        font-size: 30px;
-        font-family: 'Lato', sans-serif;
-    }
-
-html,
-body,
-.carousel,
-.carousel-inner,
-.carousel-inner .item {
-    height: 100%;
-}
-
-.item:nth-child(1) {
-    background-image: url('../images/slides/c24 meeting.jpg.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.item:nth-child(2) {
-    background-image: url('../images/slides/chairamn1-posting-2023-12-20.jpg.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.item:nth-child(3) {
-    background-image: url('../images/slides/cte-meeting-sbtet 2024-01-05 .jpg.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-*/
-
-
-
-
-
-/*<div style='text-align:center;' >
-<h3 style='text-align: center;margin: 55px 0px;border-bottom: 2px solid #666; display:inline-block;padding-bottom:10px' > Bootstrap Carousel Fade In & FadeOut</h3 >
-</div >
-<div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel" >
-<!-- Wrapper for slides -->
-<div class="carousel-inner" role="listbox" >
-<div class="item active" >
-<div class="carousel-caption" >
-<h3 > First slide label</h3 >
-<p > Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p >
-</div >
-</div >
-<div class="item" >
-<div class="carousel-caption" >
-<h3 > Second slide label</h3 >
-<p > Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p >
-</div >
-</div >
-<div class="item" >
-<div class="carousel-caption" >
-<h3 > Third slide label</h3 >
-<p > Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p >
-</div >
-</div >
-</div >
-<!-- Controls -->
-<a class="left carousel-control" href="#carouselFade" role="button" data-slide="prev" >
-<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" > </span >
-<span class="sr-only" > Previous</span >
-</a >
-<a class="right carousel-control" href="#carouselFade" role="button" data-slide="next" >
-<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" > </span >
-<span class="sr-only" > Next</span >
-</a >
-</div >*/

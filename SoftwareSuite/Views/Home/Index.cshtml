@@ -1,74 +1,87 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
-    var imageFiles = ViewBag.ImageFiles as List<string>;
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewData["Title"]</title>
-    <link href="~/css/styles_slide.css" rel="stylesheet" />
-    <link href="~/css/site.css" rel="stylesheet" />
-</head>
-<body>
-    <div style="max-width: 100% !important;position: absolute;margin-left: -19%; margin-top:0.1%; height: 88%;">
-        <div class="slider" style="height: 100%;">
-        <!-- Sliding images -->
-            <div class="slides" style="height: 88%;">
-            @foreach (var image in imageFiles)
-            {
-                    <div class="slide">
-                    <img src="@image" alt="Slide" />
-                    <div class="overlay">
-                        <div class="content" >
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        let slideIndex = 0;  // Start at the first slide
+        let slides = document.querySelectorAll('.slide');  // Get all slides
+        let totalSlides = slides.length;  // Total number of slides
+        let slideInterval;  // Variable to hold the interval reference
+
+        // Function to show the next slide
+        function showSlides() {
+            const slideWidth = slides[0].clientWidth;  // Get the width of a single slide
+            document.querySelector('.slides').style.transform = `translateX(-${slideIndex * slideWidth}px)`;  // Shift the slides horizontally
+
+            slideIndex++;
+            if (slideIndex >= totalSlides) {
+                slideIndex = 0;  // Reset to the first slide if looping
+            }
+        }
+
+        // Function to start the slider with automatic sliding
+        function startSlider() {
+            showSlides();  // Show the first slide
+            slideInterval = setInterval(showSlides, 3000);  // Slide every 3 seconds (adjust the timing as needed)
+        }
+
+        // Function to navigate to the previous slide
+        function prevSlide() {
+            slideIndex--;
+            if (slideIndex < 0) {
+                slideIndex = totalSlides - 1;  // If on the first slide, go to the last
+            }
+            showSlides();
+        }
+
+        // Function to navigate to the next slide
+        function nextSlide() {
+            slideIndex++;
+            if (slideIndex >= totalSlides) {
+                slideIndex = 0;  // If on the last slide, go to the first
+            }
+            showSlides();
+        }
+
+        // Event listeners for manual navigation
+        document.querySelector('.prev-btn').addEventListener('click', prevSlide);
+        document.querySelector('.next-btn').addEventListener('click', nextSlide);
+
+        // Start the slider once the page is loaded
+        startSlider();
+    });
+</script>
+
+
+<!-- Slider Section -->
+@if (ViewData["ShowSlider"] != null && (bool)ViewData["ShowSlider"])
+{
+    <div class="slider-container" style="position: relative; width: 160%; overflow: hidden; margin-left: -30%; margin-top: 0.5%;">
+        <div class="slider">
+            <div class="slides">
+                @foreach (var image in ViewBag.ImageFiles as List<string>)
+                {
+                    <div class="slide" style="height: 65%;">
+                        <img src="@image" alt="Slide" />
+                        <div class="overlay">
+                            <div class="content">
                                 <h1>State Board of Technical Education & Training!</h1>
-                                <p>The Board was created under the authority of Government of Telangana as an adjunct office of the Department of Technical Education. While the Technical Education Department concentrates more on the administration and developmental aspects.</p>
+                                <p>The Board was created under the authority of the Government of Telangana as an adjunct office of the Department of Technical Education. While the Technical Education Department concentrates more on the administration and developmental aspects.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            }
+                }
+            </div>
+            <!-- Slider Navigation Buttons -->
+            <button class="slider-btn prev-btn" style="margin-top: -7%;"> &#10094; </button> <!-- Previous Button -->
+            <button class="slider-btn next-btn" style="margin-top: -7%;"> &#10095; </button> <!-- Next Button -->
         </div>
     </div>
-    </div>
+}
 
-  @*   <div class="dashboard">
-        <h1>Certificate Dashboard</h1>
-        <div class="grid-container">
-            <div class="grid-item">
-                <div class="bar" style="width: 60%;">13,371</div>
-                <p>Certificate Issued</p>
-            </div>
-            <div class="grid-item">
-                <div class="bar" style="width: 90%;">26,668</div>
-                <p>Bonafide Certificate</p>
-            </div>
-            <div class="grid-item">
-                <div class="bar" style="width: 20%;">5,615</div>
-                <p>Transcript Issued</p>
-            </div>
-            <div class="grid-item">
-                <div class="bar" style="width: 15%;">3,105</div>
-                <p>Duplicate Memo</p>
-            </div>
-            <div class="grid-item">
-                <div class="bar" style="width: 25%;">4,631</div>
-                <p>Memo Issued</p>
-            </div>
-            <div class="grid-item">
-                <div class="bar" style="width: 1%;">31</div>
-                <p>Duplicate ODC</p>
-            </div>
-            <div class="grid-item">
-                <div class="bar" style="width: 1%;">31</div>
-                <p>Certificate Transfer</p>
-            </div>
-            <div class="grid-item">
-                <div class="bar" style="width: 85%;">29,120</div>
-                <p>Name Correction</p>
-            </div>
-        </div>
-    </div> *@
-</body>
-</html>
+
+
+   
+
+  

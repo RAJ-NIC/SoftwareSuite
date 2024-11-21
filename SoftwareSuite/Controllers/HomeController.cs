@@ -21,9 +21,8 @@ namespace SoftwareSuite.Controllers
                                       .Select(file => "/images/slides/" + Path.GetFileName(file))
                                       .ToList();
 
-            // Pass image paths to the view
-            ViewBag.ImageFiles = imageFiles;
-
+            ViewBag.ImageFiles = imageFiles; 
+            ViewData["ShowSlider"] = true; 
             return View();
         }
 
